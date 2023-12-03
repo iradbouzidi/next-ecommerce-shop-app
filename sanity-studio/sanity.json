@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "b6atlej1",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "next-ecommerce-shop-app"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
