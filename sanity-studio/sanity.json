@@ -1,11 +1,11 @@
 {
   "root": true,
-  "api": {
-    "projectId": "b6atlej1",
-    "dataset": "production"
-  },
   "project": {
-    "name": "next-ecommerce-shop-app"
+    "name": "next-tiktok-clone-app"
+  },
+  "api": {
+    "projectId": "am78k9js",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
